@@ -1,0 +1,234 @@
+body
+{
+    background-color: wheat;
+    font-family: "Arial";
+}
+h2
+{
+    margin-top: 0px;
+}
+
+
+/**
+*   header pagina
+*/
+#loguit
+{
+    float: right;
+}
+#btnProfiel
+{
+    float: right;
+    padding: 0px 20px 0px 0px ;
+}
+#btnProfiel button
+{
+    background-color: none;
+}
+button
+{
+    background-color: gold;
+}
+#HeaderUL
+{
+    padding: 30px 0px 0px 500px;
+    margin-left: 25px;
+
+}
+ul
+{
+    margin: 0px;
+}
+li
+{
+    float: left;
+    padding: 0px 20px 0px 0px;
+    list-style-type: none;
+    text-decoration:  none;
+    font-size: 18px;
+}
+a
+{
+    text-decoration: underline;
+    font-size: 18px;
+    color: black    ;
+}
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+#image1
+{
+    width: 500px;
+    height: 489px;
+    background-image: url("img/fotoFestival.jpg");
+}
+
+
+/*
+*       footer
+*/
+footer{
+
+    width: 100%;
+    height: auto;
+    background-color: green;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#footerContainer{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footerh4{
+    margin-bottom: 10px;
+}
+
+#footerP{
+    margin: 5px 0px;
+}
+
+
+/**
+*   Home pagina
+ */
+#home
+{
+    margin: 0px  auto;
+    width: 1400px;
+    height: 500px;
+    background-color: yellow;
+}
+
+#h2Home
+{
+    text-align: center;
+    margin:0px;
+}
+
+#h2Content
+{
+    padding-top: 50px;
+    text-align: center;
+    float: left;
+    width: 600px;
+}
+#HomeMenulinks
+{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+#HomeMenuRechts
+{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: lightgreen;
+}
+#h3Home
+{
+    margin-top: 200px;
+    text-align: center;
+}
+#HomeMenuRechts li
+{
+    list-style-type: inherit;
+}
+#HomeMenuRechts h4
+{
+    margin: 0px;
+}
+
+/*
+*       inloggen&registreren pagina
+*/
+
+#registreren
+{
+    margin: 0px  auto;
+    width: 1400px;
+    height: 500px;
+    background-color: yellow;
+}
+
+#registrerenContent
+{
+    padding-top: 50px;
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 450px;
+}
+#registrerenMenuLinks
+{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+#registrerenMenuRechts
+{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: lightgreen;
+}
+
+/*
+*       Profiel pagina
+*/
+#profiel
+{
+    margin: 0px  auto;
+    width: 1400px;
+    height: 500px;
+    background-color: yellow;
+}
+
+#profielContent
+{
+    padding-top: 50px;
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 450px;
+}
+
+#profielMenuLinks
+{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+#profielMenuRechts
+{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: lightgreen;
+}
+
+td
+{
+    padding-left: 15px;
+}
+
+/**
+*   bevestigingspagina&Create
+ */
+#bevestiging
+{
+    padding-top: 10;
+}
